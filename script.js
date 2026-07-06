@@ -431,11 +431,6 @@ function createProjectCard(project) {
             <use href="#icon-arrow-right"></use>
           </svg>
         </a>
-        <a class="detail-icon-link" href="${project.url}" target="_blank" rel="noopener noreferrer" aria-label="Abrir ${project.name}">
-          <svg class="icon" aria-hidden="true">
-            <use href="#icon-external"></use>
-          </svg>
-        </a>
       </div>
     </div>
   `;
