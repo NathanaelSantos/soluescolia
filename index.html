@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoluEscolIA | HUB de soluções escolares com IA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <svg aria-hidden="true" class="icon-sprite" focusable="false">
+      <symbol id="icon-search" viewBox="0 0 24 24">
+        <path d="m21 21-4.35-4.35" />
+        <circle cx="11" cy="11" r="7" />
+      </symbol>
+      <symbol id="icon-arrow-left" viewBox="0 0 24 24">
+        <path d="M19 12H5" />
+        <path d="m12 19-7-7 7-7" />
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+        <path d="M5 12h14" />
+        <path d="m12 5 7 7-7 7" />
+      </symbol>
+      <symbol id="icon-external" viewBox="0 0 24 24">
+        <path d="M15 3h6v6" />
+        <path d="M10 14 21 3" />
+        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+      </symbol>
+      <symbol id="icon-user" viewBox="0 0 24 24">
+        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+        <circle cx="12" cy="7" r="4" />
+      </symbol>
+      <symbol id="icon-inclusion" viewBox="0 0 24 24">
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <circle cx="9" cy="7" r="4" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+      </symbol>
+      <symbol id="icon-food" viewBox="0 0 24 24">
+        <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" />
+        <path d="M10 2c1 .5 2 2 2 5" />
+      </symbol>
+      <symbol id="icon-box" viewBox="0 0 24 24">
+        <path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z" />
+        <path d="M3.3 7 12 12l8.7-5" />
+        <path d="M12 22V12" />
+      </symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+      </symbol>
+      <symbol id="icon-bus" viewBox="0 0 24 24">
+        <path d="M8 6v6" />
+        <path d="M15 6v6" />
+        <path d="M2 12h19.6" />
+        <path d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3" />
+        <circle cx="7" cy="18" r="2" />
+        <path d="M9 18h5" />
+        <circle cx="16" cy="18" r="2" />
+      </symbol>
+      <symbol id="icon-teach" viewBox="0 0 24 24">
+        <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+        <path d="M6 12v5c3 3 9 3 12 0v-5" />
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M3 3v18h18" />
+        <path d="M18 17V9" />
+        <path d="M13 17V5" />
+        <path d="M8 17v-3" />
+      </symbol>
+      <symbol id="icon-timer" viewBox="0 0 24 24">
+        <line x1="10" x2="14" y1="2" y2="2" />
+        <line x1="12" x2="12" y1="14" y2="10" />
+        <circle cx="12" cy="14" r="8" />
+      </symbol>
+    </svg>
+    <header class="topbar" aria-label="Menu principal">
+      <a class="brand" href="#inicio" aria-label="Voltar para o inicio">SoluEscolIA</a>
+      <nav class="nav-links" aria-label="Categorias">
+        <a href="#inicio">Início</a>
+        <a href="#sistemas">Sistemas</a>
+        <a href="#destaques">Destaques</a>
+      </nav>
+      <label class="search" for="searchInput">
+        <svg class="icon" aria-hidden="true">
+          <use href="#icon-search"></use>
+        </svg>
+        <input id="searchInput" type="search" placeholder="Buscar sistema" autocomplete="off" />
+        <kbd aria-hidden="true">/</kbd>
+      </label>
+    </header>
+
+    <main id="app"></main>
+
+    <template id="homeTemplate">
+      <section class="hero" aria-labelledby="heroTitle">
+        <div class="hero-pattern" aria-hidden="true"></div>
+        <div class="senac-mark" aria-label="Senac Itabaiana">
+          <span class="senac-symbol"></span>
+          <strong>Senac</strong>
+          <small>Itabaiana</small>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Sistemas desenvolvidos com Canva IA</p>
+          <h1 id="heroTitle">HUB de soluções <span>escolares com IA</span></h1>
+          <p class="hero-text">
+            Inovação, gestão e transformação para a escola do futuro.
+          </p>
+          <div class="ia-chip" aria-hidden="true">IA</div>
+          <div class="hero-actions">
+            <a class="primary-button" href="#sistemas">Ver sistemas</a>
+            <a class="ghost-button" href="#destaques">Acessos rápidos</a>
+          </div>
+        </div>
+        <div class="hero-showcase" aria-hidden="true">
+          <div class="school-illustration">
+            <span class="school-flag"></span>
+            <span class="school-roof"></span>
+            <div class="school-body">
+              <span class="school-clock"></span>
+              <span class="school-door"></span>
+              <span class="school-window left"></span>
+              <span class="school-window right"></span>
+            </div>
+            <span class="school-base"></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-card" aria-labelledby="introTitle">
+        <div class="intro-icon" aria-hidden="true">
+          <svg class="icon"><use href="#icon-chart"></use></svg>
+        </div>
+        <div>
+          <h2 id="introTitle">Apresentação</h2>
+          <p>
+            Este HUB apresenta soluções digitais desenvolvidas com o Canva IA pela turma do curso
+            <strong>IA na Educação do Senac Itabaiana</strong>. Os sistemas foram criados para apoiar
+            a gestão escolar, otimizar processos e facilitar o dia a dia de professores, gestores e
+            equipes escolares.
+          </p>
+        </div>
+      </section>
+
+      <section class="catalog" id="sistemas" aria-label="Lista de sistemas">
+        <div class="section-head">
+          <span class="section-icon" aria-hidden="true">
+            <svg class="icon"><use href="#icon-chart"></use></svg>
+          </span>
+          <h2>Nossos sistemas</h2>
+          <p id="resultCount"></p>
+        </div>
+        <div class="rail" id="projectRail"></div>
+      </section>
+
+      <section class="catalog compact" id="destaques" aria-label="Acessos rápidos dos sistemas">
+        <div class="section-head">
+          <h2>Acessos rápidos</h2>
+          <p>Responsáveis, áreas e links externos</p>
+        </div>
+        <div class="quick-grid" id="highlightGrid"></div>
+      </section>
+    </template>
+
+    <template id="detailTemplate">
+      <article class="detail-page">
+        <section class="detail-hero">
+          <div class="detail-backdrop" id="detailBackdrop"></div>
+          <div class="detail-content">
+            <a class="back-link" href="#inicio">
+              <svg class="icon" aria-hidden="true">
+                <use href="#icon-arrow-left"></use>
+              </svg>
+              Voltar
+            </a>
+            <p class="eyebrow" id="detailCategory"></p>
+            <h1 id="detailTitle"></h1>
+            <p class="detail-description" id="detailDescription"></p>
+            <div class="detail-actions" id="detailActions"></div>
+          </div>
+        </section>
+
+        <section class="detail-body">
+          <div class="info-panel">
+            <h2>Sobre o sistema</h2>
+            <p id="detailAbout"></p>
+          </div>
+
+          <div class="info-panel">
+            <h2>Informações de acesso</h2>
+            <div class="fact-grid" id="detailFacts"></div>
+          </div>
+
+          <div class="info-panel">
+            <h2>Cenários de uso</h2>
+            <div class="gallery" id="detailGallery"></div>
+          </div>
+
+          <div class="info-panel">
+            <h2>Pontos principais</h2>
+            <div class="highlight-list" id="detailHighlights"></div>
+          </div>
+
+          <div class="info-panel prompt-panel" id="detailPromptPanel">
+            <h2>Prompts e respostas</h2>
+            <p>Histórico de criação e evolução registrado pela equipe do sistema.</p>
+            <div class="prompt-list" id="detailPrompts"></div>
+          </div>
+        </section>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
