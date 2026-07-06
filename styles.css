@@ -272,49 +272,15 @@ button {
 .senac-mark {
   position: absolute;
   z-index: 1;
-  top: 96px;
+  top: 88px;
   left: var(--page-x);
-  display: grid;
-  justify-items: start;
-  color: #ffffff;
-  line-height: 1;
+  line-height: 0;
 }
 
-.senac-symbol {
-  position: relative;
-  width: 66px;
-  height: 28px;
-  margin: 0 0 -2px 28px;
-}
-
-.senac-symbol::before,
-.senac-symbol::after {
-  position: absolute;
-  left: 0;
-  width: 66px;
-  height: 13px;
-  border-radius: 70% 70% 0 0;
-  background: #ffffff;
-  content: "";
-  transform: skewX(-24deg) rotate(-8deg);
-}
-
-.senac-symbol::after {
-  top: 12px;
-  width: 52px;
-  opacity: 0.9;
-}
-
-.senac-mark strong {
-  font-size: clamp(1.9rem, 3vw, 3.2rem);
-  font-weight: 900;
-  letter-spacing: -0.04em;
-}
-
-.senac-mark small {
-  margin-left: 20px;
-  font-size: 0.9rem;
-  font-weight: 800;
+.senac-mark img {
+  display: block;
+  width: auto;
+  height: clamp(54px, 6vw, 80px);
 }
 
 .hero-content {
