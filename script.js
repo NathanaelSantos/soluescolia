@@ -5,10 +5,9 @@ const projects = [
     owner: "Aline",
     category: "Inclusão escolar",
     url: "https://conectainclusao.my.canva.site/",
-    cover:
-      "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/conecta-inclusao.png",
     images: [
-      "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&w=1200&q=80",
+      "assets/conecta-inclusao.png",
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
     ],
