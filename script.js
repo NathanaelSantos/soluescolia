@@ -94,10 +94,9 @@ const projects = [
     owner: "Alessandra",
     category: "Transporte escolar",
     url: "https://frota-dre3.my.canva.site/",
-    cover:
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/gestao-frota.png",
     images: [
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80",
+      "assets/gestao-frota.png",
       "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80",
     ],
