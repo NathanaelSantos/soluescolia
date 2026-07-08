@@ -613,8 +613,6 @@ function projectMatches(project, term) {
 
 function createProjectCard(project) {
   const style = styleFor(project);
-  const creditLabel = project.team ? "Equipe" : "Responsável";
-  const creditValue = project.team || project.owner;
   const card = document.createElement("article");
   card.className = "project-card";
   card.style.setProperty("--card-accent", style.accent);
@@ -634,10 +632,6 @@ function createProjectCard(project) {
     </a>
     <div class="card-content">
       <p>${project.description}</p>
-      <div class="card-owner">
-        <svg class="icon" aria-hidden="true"><use href="#icon-user"></use></svg>
-        <span>${creditLabel}: <strong>${creditValue}</strong></span>
-      </div>
       <div class="card-actions">
         <a class="launch-button" href="#sistema-${project.id}">
           Ver detalhes
