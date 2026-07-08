@@ -268,6 +268,39 @@ Formato esperado: nome, turma, disciplina, frequencia, media.`,
       "Foco em tempo de estudo, foco e pausas.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt de criação do sistema",
+        prompt: `1. Persona e Objetivo
+Você é um designer de apps educacionais. Crie um sistema web chamado "Cronômetro de Estudo" para ajudar alunos a focar nos estudos usando a técnica de blocos. Design moderno, fundo escuro e interface limpa.
+
+2. Estrutura da Tela Principal
+• Título: "Cronômetro de Estudo" no topo, em branco.
+• Seletor de Blocos: 3 botões quadrados no topo — 1 vermelha, 2 mostarda, 3 vinho. O botão selecionado fica com borda mais clara.
+• Cronômetro Central: círculo grande com borda vermelha; dentro, "10:00" em fonte grande branca e abaixo "BLOCO 1".
+• Botões de Ação: "Iniciar" verde com ícone de Play; "Reiniciar" vermelho com ícone de seta circular.
+• Barra de Progresso: barra fina horizontal abaixo dos botões.
+• Status: texto "Pronto para começar!" centralizado abaixo da barra.
+
+3. Funções Obrigatórias
+• O cronômetro inicia em 10:00 por padrão no BLOCO 1.
+• Ao clicar em Iniciar, começa a contagem regressiva e a barra de progresso vai preenchendo.
+• Ao clicar em Reiniciar, o tempo volta para 10:00 e para a contagem.
+• Ao terminar os 10 minutos, emitir um alerta sonoro e trocar automaticamente para o BLOCO 2.
+• Cada bloco pode ter tempo configurável. Padrão: Bloco 1 = 10min, Bloco 2 = 10min, Bloco 3 = 10min.
+• O usuário pode clicar nos botões 1, 2, 3 para trocar de bloco manualmente.
+
+4. Diretrizes de Design
+• Paleta: fundo azul-marinho escuro. Destaques em verde #10B981, vermelho #B91C1C, mostarda #A16207, vinho #7F1D1D.
+• Fonte: grande, legível, sem serifa. Foco total no número do cronômetro.
+• Estilo: minimalista, sem distrações. Foco em produtividade.
+• Responsivo para celular.
+
+5. Extras Opcionais
+Adicione um botão de Configurações para o aluno alterar o tempo de cada bloco (25min, 50min, etc.).
+Exemplo de comando extra: "Adicione um contador de 'Sessões Concluídas Hoje' abaixo do status e um som de sino quando o bloco terminar."`,
+      },
+    ],
   },
 ];
 
