@@ -115,6 +115,44 @@ Dentro de cada categoria, organize os itens em ordem crescente de data de valida
       "Foco em acervo, empréstimos e consulta de livros.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt de criação do sistema",
+        prompt: `Prompt para Canva IA — Sistema "Gestão da Biblioteca Escolar"
+
+1. Persona e Objetivo
+Você é um assistente administrativo escolar. Crie um sistema web chamado "Biblioteca Escolar" para gestão completa do acervo, alunos e empréstimos. O objetivo é controlar livros, reduzir atrasos e incentivar a leitura. Conectar com "Canva Sheet".
+
+2. Estrutura do Sistema — 5 Abas
+• Painel: dashboard principal com cards e relatórios.
+• Livros: cadastro de acervo com título, autor, categoria, código QR e status.
+• Alunos: cadastro de alunos por turma e série.
+• Empréstimos: registrar entrada, saída, devolução e reserva de livros.
+• Catálogo: visualização pública do acervo para consulta.
+
+3. Módulos do Painel Principal
+• Cards de Resumo: Livros, Alunos, Atrasados, Em Aberto (com contadores).
+• Relatórios da Biblioteca: livros mais lidos, turmas que mais utilizam, empréstimos por mês, perdidos ou danificados. Botão "Imprimir Lembretes".
+• Avisos de Atraso: lista automática de livros com devolução em atraso.
+• Incentivo: módulo de Ranking de Leitores e Leitor do Mês. Instrução: "Cadastre empréstimos para gerar o ranking".
+• Organização Física Sugerida: tabela de cores por categoria. Ex.: Infantil = Amarelo, Didático = Verde, Contos = Vermelho, Ciências = Creme, Português = Branco, QR/Código = Numérico.
+
+4. Regras e Funções Obrigatórias
+• Calcular automaticamente livros Atrasados e Em Aberto.
+• Gerar relatório de leitura por turma e por aluno.
+• Permitir cadastro de doações e marcar livros como perdido ou danificado.
+• Design limpo, cores claras em tons de bege e verde, com ícones. Linguagem formal e acessível para escolas estaduais.
+• Rodapé: "Sistema escolar para organizar acervo, alunos, empréstimos, reservas, doações, avaliações e incentivo à leitura."
+
+5. Exemplo de comando extra
+"Adicione um botão para exportar a lista de atrasados em PDF e enviar por WhatsApp para os responsáveis."
+
+Dicas para melhorar o prompt no Canva IA:
+• Dados: "popular com 5 livros e 3 alunos fictícios" para já vir com exemplo.
+• Automação: "crie uma regra: se passar 7 dias do empréstimo, o livro vai para 'Atrasados' automaticamente".
+• Inclusão: "adicione campo de 'Nível de leitura' no cadastro do aluno para sugerir livros".`,
+      },
+    ],
   },
   {
     id: "gestao-frota",
