@@ -49,10 +49,9 @@ const projects = [
     owner: "Keliane",
     category: "Estoque e patrimônio",
     url: "https://kelianeteles.my.canva.site",
-    cover:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/gestao-estoque.png",
     images: [
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+      "assets/gestao-estoque.png",
       "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=900&q=80",
     ],
