@@ -229,10 +229,9 @@ Formato esperado: nome, turma, disciplina, frequencia, media.`,
     owner: "Monica",
     category: "Organização de estudos",
     url: "https://super-crinometro-2026.my.canva.site/",
-    cover:
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/cronometro.png",
     images: [
-      "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
+      "assets/cronometro.png",
       "https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80",
     ],
