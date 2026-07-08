@@ -755,7 +755,7 @@ button {
   z-index: 1;
   display: block;
   margin: 0 16px;
-  aspect-ratio: 16 / 10.6;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   border: 1px solid rgba(var(--card-accent), 0.08);
   border-radius: 8px;

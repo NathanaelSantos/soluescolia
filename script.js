@@ -27,10 +27,9 @@ const projects = [
     owner: "Núbia",
     category: "Alimentação escolar",
     url: "https://sistema-cantina-escolar.my.canva.site/",
-    cover:
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/cantina-escolar.png",
     images: [
-      "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=1200&q=80",
+      "assets/cantina-escolar.png",
       "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=900&q=80",
     ],
