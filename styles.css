@@ -1160,6 +1160,10 @@ button {
   margin-top: 28px;
 }
 
+.detail-actions:empty {
+  display: none;
+}
+
 .detail-body {
   display: grid;
   gap: 18px;

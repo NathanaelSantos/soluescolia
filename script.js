@@ -741,10 +741,9 @@ function renderDetail(project) {
   detailPage.style.setProperty("--card-accent", style.accent);
 
   const category = document.querySelector("#detailCategory");
-  const detailCredit = project.team ? `Equipe: ${project.team}` : `Responsável: ${project.owner}`;
   category.innerHTML = `
     <svg class="icon" aria-hidden="true"><use href="#icon-${style.icon}"></use></svg>
-    <span>${project.category} · ${detailCredit}</span>
+    <span>${project.category}</span>
   `;
   document.querySelector("#detailTitle").textContent = project.name;
   document.querySelector("#detailDescription").textContent = project.description;
@@ -752,31 +751,8 @@ function renderDetail(project) {
   const detailHero = document.querySelector(".detail-hero");
   detailHero.style.setProperty("--detail-cover", imageUrl(project.cover));
 
-  const detailActions = document.querySelector("#detailActions");
-  const externalLink = document.createElement("a");
-  externalLink.className = "primary-button";
-  externalLink.href = project.url;
-  externalLink.target = "_blank";
-  externalLink.rel = "noopener noreferrer";
-  externalLink.innerHTML = `
-    Acessar sistema
-    <svg class="icon" aria-hidden="true">
-      <use href="#icon-external"></use>
-    </svg>
-  `;
-  detailActions.append(externalLink);
-
   const facts = document.querySelector("#detailFacts");
-  const url = new URL(project.url);
-  const factItems = [
-    ["Responsável", project.owner],
-    ["Área", project.category],
-    ["Endereço", url.hostname],
-  ];
-
-  if (project.team) {
-    factItems.splice(1, 0, ["Equipe", project.team]);
-  }
+  const factItems = [["Área", project.category]];
 
   if (project.prompts?.length) {
     factItems.push(["Prompts", `${project.prompts.length} registros`]);
