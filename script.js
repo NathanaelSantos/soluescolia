@@ -115,10 +115,9 @@ const projects = [
     owner: "Jessyca",
     category: "Apoio pedagógico",
     url: "https://jessica-psicopedagoga.my.canva.site/assistente-educacional-inclusivo-",
-    cover:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/gestao-pedagogica.png",
     images: [
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "assets/gestao-pedagogica.png",
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
     ],
