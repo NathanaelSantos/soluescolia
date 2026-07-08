@@ -71,10 +71,9 @@ const projects = [
     owner: "Regina",
     category: "Leitura e acervo",
     url: "https://kelianeteles.my.canva.site/aplicativo-sem-t-tulo",
-    cover:
-      "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/gestao-biblioteca.png",
     images: [
-      "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=1200&q=80",
+      "assets/gestao-biblioteca.png",
       "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80",
     ],
