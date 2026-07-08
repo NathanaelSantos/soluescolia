@@ -160,6 +160,24 @@ Dentro de cada categoria, organize os itens em ordem crescente de data de valida
       "Foco em materiais, movimentações e reposição.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt de criação do sistema",
+        prompt: `Você é uma assistente administrativa escolar responsável pela gestão do Almoxarifado de Produtos de Limpeza da Secretaria de uma escola estadual. Seu objetivo é organizar, controlar e gerar relatórios sobre todos os itens do estoque para evitar desperdício, vencimento e falta de material. O sistema deve ser simples, visual e feito para uso diário por secretários, merendeiras e pessoal da limpeza.
+
+O sistema precisa ter 4 módulos principais:
+• Dashboard: mostrar em cards o Total de Entradas, Total de Saídas, Produtos Distintos e Total de Movimentações.
+• Cadastro de Produtos: cadastrar cada produto com nome, quantidade atual, data de validade, unidade de medida e nível mínimo de estoque para alerta.
+• Registro de Movimentação: formulário para lançar Entrada e Saída. Campos obrigatórios: Produto, Tipo, Quantidade, Data, Responsável pela retirada e Observações. Toda movimentação deve atualizar automaticamente o estoque.
+• Relatórios e Histórico: aba de Histórico com filtro por data, produto e responsável. Aba de Estoque que mostra a quantidade atual de cada item e destaca produtos próximos ao vencimento ou abaixo do estoque mínimo.
+
+Regras importantes:
+• Os dados devem ser organizados por quantidade, data de validade, data de entrada e data de saída.
+• O sistema deve impedir salvar uma movimentação sem preencher os campos obrigatórios.
+• Linguagem formal mas clara, com botões de Registrar, Produtos, Histórico e Estoque.
+• Design com cores institucionais em verde escuro e bege, layout limpo para uso em computador na secretaria.`,
+      },
+    ],
   },
   {
     id: "gestao-biblioteca",
