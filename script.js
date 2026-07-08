@@ -138,10 +138,9 @@ const projects = [
     team: "Alex, Edenildes e Edinha",
     category: "Indicadores escolares",
     url: "https://canva.link/u2w7jmp2nzrm4cf",
-    cover:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+    cover: "assets/monitoramento-escolar.png",
     images: [
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "assets/monitoramento-escolar.png",
       "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80",
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
     ],
