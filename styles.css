@@ -1266,8 +1266,8 @@ button {
   border: 1px solid var(--line);
   border-left: 3px solid rgb(var(--card-accent));
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
-  color: #d7dfeb;
+  background: rgba(var(--card-accent), 0.07);
+  color: #1f3350;
   font-size: 0.95rem;
   line-height: 1.62;
   white-space: pre-wrap;
@@ -1362,7 +1362,7 @@ button {
 
 .prompt-block p {
   margin: 0;
-  color: #d7dfeb;
+  color: #22344f;
   font-size: 0.93rem;
   line-height: 1.68;
   white-space: pre-wrap;
@@ -1371,8 +1371,9 @@ button {
 .response-block {
   margin: 0 14px 14px;
   padding: 16px;
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(0, 0, 0, 0.18);
+  background: #f4f7fb;
 }
 
 /* ---------- Scroll reveal ---------- */
