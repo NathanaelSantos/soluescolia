@@ -12,7 +12,7 @@
 
   --brand: 0, 50, 108;
   --brand-2: 0, 143, 219;
-  --accent-solid: #ffd21f;
+  --accent-solid: #f07e26;
 
   /* default category accent — overridden per card/detail via JS */
   --card-accent: 0, 91, 179;
@@ -475,7 +475,7 @@ button {
 }
 
 .school-scene .node-4 {
-  color: #ffd98a;
+  color: #ffb27a;
   animation-delay: 1.8s;
 }
 
@@ -504,12 +504,12 @@ button {
   border: 1px solid transparent;
   background: var(--accent-solid);
   color: #08234d;
-  box-shadow: 0 14px 28px -16px rgba(255, 210, 31, 0.8);
+  box-shadow: 0 14px 28px -16px rgba(240, 126, 38, 0.75);
 }
 
 .primary-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 18px 38px -18px rgba(255, 210, 31, 0.92);
+  box-shadow: 0 18px 38px -18px rgba(240, 126, 38, 0.9);
 }
 
 .ghost-button,
@@ -592,8 +592,8 @@ button {
 }
 
 .fi-amber {
-  background: #fff2d3;
-  color: #dd9f06;
+  background: #ffe9d8;
+  color: #e2701c;
 }
 
 .feature-text h3 {
