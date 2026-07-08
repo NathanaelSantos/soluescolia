@@ -521,7 +521,7 @@ function renderDetail(project) {
   }
   document.querySelectorAll(".nav-links a.active").forEach((link) => link.classList.remove("active"));
 
-  document.title = `${project.name} | SoluEscolIA`;
+  document.title = `${project.name} | SoluEscolaIA`;
 
   const detailPage = document.querySelector(".detail-page");
   detailPage.style.setProperty("--card-accent", style.accent);
@@ -654,7 +654,7 @@ function renderRoute() {
   const detailId = hash.startsWith("sistema-") ? hash.replace("sistema-", "") : "";
   const project = projects.find((item) => item.id === detailId);
 
-  document.title = "SoluEscolIA | HUB de soluções escolares com IA";
+  document.title = "SoluEscolaIA | HUB de soluções escolares com IA";
 
   if (project) {
     renderDetail(project);

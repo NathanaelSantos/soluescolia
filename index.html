@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SoluEscolIA | HUB de soluções escolares com IA</title>
+    <title>SoluEscolaIA | HUB de soluções escolares com IA</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://images.unsplash.com" />
@@ -79,9 +79,38 @@
         <line x1="12" x2="12" y1="14" y2="10" />
         <circle cx="12" cy="14" r="8" />
       </symbol>
+      <symbol id="icon-bolt" viewBox="0 0 24 24">
+        <path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z" />
+      </symbol>
+      <symbol id="icon-brain" viewBox="0 0 24 24">
+        <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 1.98-3A2.5 2.5 0 0 1 9.5 2Z" />
+        <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-1.98-3A2.5 2.5 0 0 0 14.5 2Z" />
+      </symbol>
+      <symbol id="icon-file" viewBox="0 0 24 24">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+        <path d="M14 2v6h6" />
+        <path d="M16 13H8M16 17H8M10 9H8" />
+      </symbol>
+      <symbol id="icon-sparkles" viewBox="0 0 24 24">
+        <path d="M9.94 14.06A2 2 0 0 0 8.5 12.6l-5.13-1.32a.5.5 0 0 1 0-.96L8.5 9a2 2 0 0 0 1.44-1.44l1.32-5.13a.5.5 0 0 1 .96 0L13.5 7.5A2 2 0 0 0 15 8.94l5.13 1.32a.5.5 0 0 1 0 .96L15 12.6a2 2 0 0 0-1.44 1.44l-1.32 5.13a.5.5 0 0 1-.96 0z" />
+        <path d="M20 3v4M22 5h-4M4 17v2M5 18H3" />
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+        <path d="m9 12 2 2 4-4" />
+      </symbol>
+      <symbol id="icon-rocket" viewBox="0 0 24 24">
+        <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91 0z" />
+        <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" />
+        <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" />
+        <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" />
+      </symbol>
     </svg>
     <header class="topbar" aria-label="Menu principal">
-      <a class="brand" href="#inicio" aria-label="Voltar para o inicio">SoluEscolIA</a>
+      <a class="brand" href="#inicio" aria-label="SoluEscolaIA - início">
+        <span class="brand-logo" aria-hidden="true"></span>
+        <span class="brand-name">SoluEscola<span>IA</span></span>
+      </a>
       <nav class="nav-links" aria-label="Categorias">
         <a href="#inicio">Início</a>
         <a href="#sistemas">Sistemas</a>
@@ -101,48 +130,108 @@
     <template id="homeTemplate">
       <section class="hero" aria-labelledby="heroTitle">
         <div class="hero-pattern" aria-hidden="true"></div>
-        <div class="senac-mark">
-          <img src="assets/logo-senac-branco.png" alt="Senac Itabaiana" />
-        </div>
         <div class="hero-content">
           <p class="eyebrow">Sistemas desenvolvidos com Canva IA</p>
           <h1 id="heroTitle">HUB de soluções <span>escolares com IA</span></h1>
           <p class="hero-text">
             Inovação, gestão e transformação para a escola do futuro.
           </p>
-          <div class="ia-chip" aria-hidden="true">IA</div>
+          <div class="ia-line">
+            <span class="ia-badge" aria-hidden="true">IA</span>
+            <span>Inteligência Artificial a serviço da educação.</span>
+          </div>
           <div class="hero-actions">
-            <a class="primary-button" href="#sistemas">Ver sistemas</a>
-            <a class="ghost-button" href="#destaques">Acessos rápidos</a>
+            <a class="primary-button" href="#sistemas">
+              Ver sistemas
+              <svg class="icon" aria-hidden="true"><use href="#icon-arrow-right"></use></svg>
+            </a>
+            <a class="ghost-button" href="#destaques">
+              Acessos rápidos
+              <svg class="icon" aria-hidden="true"><use href="#icon-bolt"></use></svg>
+            </a>
           </div>
         </div>
         <div class="hero-showcase" aria-hidden="true">
-          <div class="school-illustration">
-            <span class="school-flag"></span>
-            <span class="school-roof"></span>
-            <div class="school-body">
-              <span class="school-clock"></span>
-              <span class="school-door"></span>
-              <span class="school-window left"></span>
-              <span class="school-window right"></span>
-            </div>
-            <span class="school-base"></span>
-          </div>
+          <svg class="school-scene" viewBox="0 0 480 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse class="orbit" cx="240" cy="205" rx="188" ry="150" />
+            <g class="net">
+              <line x1="109" y1="110" x2="228" y2="150" />
+              <line x1="371" y1="110" x2="252" y2="150" />
+              <line x1="109" y1="300" x2="150" y2="286" />
+              <line x1="371" y1="300" x2="330" y2="286" />
+            </g>
+            <g class="school">
+              <line x1="96" y1="300" x2="384" y2="300" />
+              <path d="M120 300 V235 H170" />
+              <rect x="132" y="250" width="20" height="24" rx="2" />
+              <path d="M360 300 V235 H310" />
+              <rect x="328" y="250" width="20" height="24" rx="2" />
+              <path d="M170 300 V190 H310 V300" />
+              <path d="M156 190 L240 120 L324 190 Z" />
+              <path d="M240 120 V92" />
+              <path d="M240 95 H262 L256 101.5 L262 108 H240" />
+              <circle cx="240" cy="162" r="13" />
+              <path d="M240 162 V154 M240 162 L245 165" />
+              <path d="M226 300 V256 a14 14 0 0 1 28 0 V300" />
+              <rect x="184" y="214" width="22" height="26" rx="2" />
+              <rect x="274" y="214" width="22" height="26" rx="2" />
+            </g>
+            <g class="node node-1">
+              <circle cx="109" cy="110" r="27" />
+              <use href="#icon-brain" x="96" y="97" width="26" height="26" />
+            </g>
+            <g class="node node-2">
+              <circle cx="371" cy="110" r="27" />
+              <use href="#icon-chart" x="358" y="97" width="26" height="26" />
+            </g>
+            <g class="node node-3">
+              <circle cx="109" cy="300" r="27" />
+              <use href="#icon-inclusion" x="96" y="287" width="26" height="26" />
+            </g>
+            <g class="node node-4">
+              <circle cx="371" cy="300" r="27" />
+              <use href="#icon-file" x="358" y="287" width="26" height="26" />
+            </g>
+          </svg>
         </div>
       </section>
 
-      <section class="intro-card" aria-labelledby="introTitle">
-        <div class="intro-icon" aria-hidden="true">
-          <svg class="icon"><use href="#icon-chart"></use></svg>
+      <section class="feature-strip" aria-label="Diferenciais do HUB">
+        <div class="feature">
+          <span class="feature-icon fi-blue">
+            <svg class="icon" aria-hidden="true"><use href="#icon-sparkles"></use></svg>
+          </span>
+          <div class="feature-text">
+            <h3>Soluções inteligentes</h3>
+            <p>Sistemas desenvolvidos com IA para otimizar processos escolares.</p>
+          </div>
         </div>
-        <div>
-          <h2 id="introTitle">Apresentação</h2>
-          <p>
-            Este HUB apresenta soluções digitais desenvolvidas com o Canva IA pela turma do curso
-            <strong>IA na Educação do Senac Itabaiana</strong>. Os sistemas foram criados para apoiar
-            a gestão escolar, otimizar processos e facilitar o dia a dia de professores, gestores e
-            equipes escolares.
-          </p>
+        <div class="feature">
+          <span class="feature-icon fi-green">
+            <svg class="icon" aria-hidden="true"><use href="#icon-shield"></use></svg>
+          </span>
+          <div class="feature-text">
+            <h3>Gestão eficiente</h3>
+            <p>Ferramentas que facilitam a gestão e melhoram a tomada de decisões.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="feature-icon fi-purple">
+            <svg class="icon" aria-hidden="true"><use href="#icon-inclusion"></use></svg>
+          </span>
+          <div class="feature-text">
+            <h3>Colaboração</h3>
+            <p>Integração entre professores, gestores e equipes para melhores resultados.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="feature-icon fi-amber">
+            <svg class="icon" aria-hidden="true"><use href="#icon-rocket"></use></svg>
+          </span>
+          <div class="feature-text">
+            <h3>Futuro da educação</h3>
+            <p>Tecnologia e inovação para preparar sua escola para os próximos desafios.</p>
+          </div>
         </div>
       </section>
 
