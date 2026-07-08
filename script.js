@@ -42,6 +42,35 @@ const projects = [
       "Foco em cardápio, estoque e consumo diário.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt de criação do sistema",
+        prompt: `Crie um sistema de controle de estoque para cantina escolar, com visual organizado em formato de tabela ou planilha interativa, de fácil leitura e uso por funcionários da escola.
+
+O sistema deve conter os seguintes campos para cada produto:
+• Nome do produto
+• Categoria (ex: frutas, carnes, bebidas, merenda seca, laticínios, hortifrúti, congelados)
+• Unidade de medida (kg, litro, pacote, unidade)
+• Quantidade em estoque
+• Quantidade mínima de reposição
+• Data de validade
+• Fornecedor
+• Preço de compra
+• Local de armazenamento (freezer, geladeira, despensa, armário etc.)
+• Número do lote
+
+ORGANIZAÇÃO OBRIGATÓRIA
+Organize os produtos em grupos separados por categoria, criando seções distintas, por exemplo:
+• Bebidas (todos os sucos juntos, refrigerantes juntos, água juntos)
+• Frutas
+• Merenda seca
+• Carnes
+• Laticínios
+• Congelados
+
+Dentro de cada categoria, organize os itens em ordem crescente de data de validade, para facilitar o controle de vencimentos.`,
+      },
+    ],
   },
   {
     id: "gestao-almoxarifado",
@@ -621,17 +650,22 @@ function renderDetail(project) {
 
       promptBlock.append(promptLabel, promptText);
 
-      const responseBlock = document.createElement("div");
-      responseBlock.className = "prompt-block response-block";
+      entry.append(header, promptBlock);
 
-      const responseLabel = document.createElement("span");
-      responseLabel.textContent = "Resposta";
+      if (promptItem.response) {
+        const responseBlock = document.createElement("div");
+        responseBlock.className = "prompt-block response-block";
 
-      const responseText = document.createElement("p");
-      responseText.textContent = promptItem.response;
+        const responseLabel = document.createElement("span");
+        responseLabel.textContent = "Resposta";
 
-      responseBlock.append(responseLabel, responseText);
-      entry.append(header, promptBlock, responseBlock);
+        const responseText = document.createElement("p");
+        responseText.textContent = promptItem.response;
+
+        responseBlock.append(responseLabel, responseText);
+        entry.append(responseBlock);
+      }
+
       promptList.append(entry);
     });
   } else {
