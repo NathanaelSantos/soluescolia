@@ -801,6 +801,12 @@ button {
   height: 1.15rem;
 }
 
+/* Darkened category color for text on light backgrounds (keeps hue, adds contrast) */
+.project-card,
+.detail-page {
+  --accent-ink: color-mix(in srgb, rgb(var(--card-accent)) 50%, #08234d);
+}
+
 .tag {
   position: absolute;
   z-index: 2;
@@ -811,9 +817,8 @@ button {
   padding: 5px 9px;
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.88);
-  color: #ffffff;
-  color: rgb(var(--card-accent));
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--accent-ink);
   font-size: 0.7rem;
   font-weight: 800;
   letter-spacing: 0.02em;
@@ -1203,7 +1208,7 @@ button {
 .fact-item span {
   display: block;
   margin-bottom: 8px;
-  color: rgb(var(--card-accent));
+  color: var(--accent-ink);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -1306,7 +1311,7 @@ button {
   position: absolute;
   top: 50%;
   right: 18px;
-  color: rgb(var(--card-accent));
+  color: var(--accent-ink);
   font-size: 1.25rem;
   font-weight: 700;
   content: "+";
@@ -1325,7 +1330,7 @@ button {
   place-items: center;
   border-radius: 8px;
   background: rgba(var(--card-accent), 0.16);
-  color: rgb(var(--card-accent));
+  color: var(--accent-ink);
   font-size: 0.8rem;
   font-weight: 850;
 }
@@ -1348,7 +1353,7 @@ button {
 .prompt-block span {
   display: block;
   margin-bottom: 8px;
-  color: rgb(var(--card-accent));
+  color: var(--accent-ink);
   font-size: 0.72rem;
   font-weight: 850;
   letter-spacing: 0.08em;
