@@ -20,6 +20,73 @@ const projects = [
       "Foco em inclusão, acompanhamento e apoio pedagógico.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt mestre de criação do sistema",
+        prompt: `PROMPT MESTRE – SISTEMA DE GESTÃO EDUCACIONAL PARA ALUNOS PÚBLICO-ALVO DA EDUCAÇÃO ESPECIAL
+
+Desenvolva uma plataforma digital completa para gestão, acompanhamento e monitoramento de alunos com deficiência e necessidades educacionais específicas da escola regular. O sistema deve ser moderno, seguro, intuitivo, responsivo (desktop e mobile) e destinado ao uso da equipe gestora, coordenação pedagógica, professores do ensino regular e profissionais da Sala de Recursos Multifuncionais/AEE.
+
+OBJETIVO DO SISTEMA
+Centralizar todas as informações pedagógicas, familiares, de saúde e acompanhamento escolar dos alunos público-alvo da Educação Especial, facilitando a tomada de decisões, a comunicação entre os profissionais e o acompanhamento da evolução dos estudantes.
+
+IDENTIDADE VISUAL
+• Interface moderna e acolhedora; layout semelhante aos sistemas escolares profissionais.
+• Menu lateral fixo; painéis organizados por cartões; dashboards inteligentes; tabelas responsivas.
+• Organização visual por cores; navegação simples e intuitiva.
+• Ambiente acessível e inclusivo; dados protegidos e confidenciais.
+Sugestões de nome: Inclusão Escolar, Gestão AEE, Conecta Inclusão, AEE Manager, Escola Inclusiva, Painel NeuroInclusivo, Viva Inclusão.
+
+SISTEMA DE LOGIN
+Acesso seguro com usuário, senha, recuperação de acesso e controle de permissões por perfil.
+Perfis: Administrador, Coordenação, Professor, Professor do AEE, Consulta/Visualização.
+
+MÓDULO 1 – CADASTRO DOS ALUNOS
+• Informações pessoais: foto, nome completo, data de nascimento, turma, série (4º a 8º Ano), observações gerais.
+• Informações da deficiência: tipo, diagnóstico, CID (opcional), nível de suporte, informações pedagógicas, adaptações utilizadas, estratégias que funcionam, observações da equipe.
+• Apoio especializado em sala: possui profissional de apoio?, nome, telefone, WhatsApp, observações.
+• Documentos pedagógicos: anexar PEI, histórico escolar, relatórios pedagógicos.
+• Pesquisa apenas pelo nome do aluno.
+
+MÓDULO 2 – DADOS DA FAMÍLIA
+Nome dos responsáveis, telefones, WhatsApp, e-mail, endereço, pessoas autorizadas para buscar o aluno e contatos de emergência.
+
+MÓDULO 3 – SAÚDE
+• Medicação: nome, horário, observações.
+• Alimentação: restrições e alergias.
+• Crises e comportamentos: orientações da família sobre "como agir em momentos de crise ou desregulação comportamental".
+• Documentação médica: anexar laudos e relatórios.
+
+MÓDULO 4 – EQUIPE MULTIDISCIPLINAR
+Registrar atendimentos (Psicólogo, Fonoaudiólogo, Terapeuta Ocupacional, Psicopedagogo, Fisioterapeuta, Neurologista, Psiquiatra, Nutricionista, Equoterapia, Outros). Para cada: dia da semana, horário, frequência e observações.
+
+MÓDULO 5 – HORÁRIO DE ATENDIMENTO NA SALA DE RECURSOS
+Tabela organizada com nome do aluno, dia da semana, horário e professor responsável. Registro de presença, faltas e histórico de frequência.
+
+MÓDULO 6 – EVOLUÇÃO E ACOMPANHAMENTO
+Evolução pedagógica, observações periódicas, reuniões com responsáveis, encaminhamentos e histórico completo. Anexar relatórios, fotografias, documentos e PDFs.
+
+MÓDULO 7 – ALERTAS E LEMBRETES
+Alertas automáticos para: horário de medicação, atualização de laudos, atualização do PEI, reuniões agendadas, informações importantes e pendências documentais.
+
+MÓDULO 8 – RELATÓRIOS
+• Relatório individual (dados pessoais, pedagógicos, familiares, saúde, equipe multidisciplinar, evolução escolar).
+• Relatório geral da escola (total de alunos com deficiência, atendidos no AEE, por tipo de deficiência e por turma).
+Todos com opção de visualizar, imprimir e exportar PDF.
+
+MÓDULO 9 – PAINEL GERAL (DASHBOARD)
+Indicadores principais (total de alunos com deficiência, atendidos na Sala de Recursos, por deficiência e por turma), listagens inteligentes e visualizações (gráficos, tabelas, cartões estatísticos e indicadores em tempo real).
+
+MÓDULO 10 – INTELIGÊNCIA ARTIFICIAL
+IA educacional para gerar relatórios, resumir informações, organizar histórico, identificar informações importantes, emitir alertas, sugerir estratégias, auxiliar intervenções, apoiar o planejamento do AEE e gerar sínteses para reuniões. A IA atua apenas como apoio — a decisão final é dos profissionais da educação.
+
+SEGURANÇA E LGPD
+Controle de acesso por perfil, criptografia, backup automático, registro de alterações, histórico de acessos, permissões específicas e conformidade com a LGPD.
+
+RESULTADO ESPERADO
+Uma plataforma profissional, moderna, acessível e completa para gestão de alunos da Educação Especial — acompanhamento pedagógico, familiar, clínico e administrativo em um único ambiente integrado, com dashboards inteligentes, relatórios automatizados, IA e recursos de impressão e exportação.`,
+      },
+    ],
   },
   {
     id: "gestao-cantina",
