@@ -255,6 +255,36 @@ Dicas para melhorar o prompt no Canva IA:
       "Foco em veículos, rotas e acompanhamento operacional.",
       "Acesso publicado em página do Canva.",
     ],
+    prompts: [
+      {
+        title: "Prompt de criação do sistema",
+        prompt: `Sistema "Agenda Mensal Diretoria Regional"
+
+1. Persona e Objetivo
+Você é um assistente administrativo. Crie um sistema web chamado "Agenda Mensal Diretoria Regional" para organizar eventos e reuniões da Diretoria Regional de Educação. Design claro, limpo e com calendário mensal.
+
+2. Funções Principais do Calendário
+• Visual Mensal: mostrar todos os meses do ano. Navegação com setas < e >.
+• Cadastro de Evento: botão "+ Novo Evento". Campos: Título, Data, Hora, Local, Turno, Observações.
+• Local do Evento: Auditório da DRE3, Fora do Espaço, Online.
+• Transporte (campo obrigatório), com cores:
+   - Motorista A = Azul
+   - Motorista B = Vermelho
+   - Motorista C = Roxo
+   - Motorista D = Verde
+   - Transporte Externo = Laranja
+• Múltiplos Eventos: permitir cadastrar quantos eventos forem necessários por data.
+
+3. Visual e Regras
+• Cada evento aparece no calendário com a cor do motorista responsável.
+• Se for Transporte Externo, usar a cor Laranja e a nomenclatura "OUTRO MOTORISTA".
+• Design: fundo azul-marinho escuro; cards de evento coloridos; botão "+ Novo Evento" laranja.
+• Responsivo para computador.
+
+4. Extras
+Adicionar filtro por Motorista e por Local no topo do calendário.`,
+      },
+    ],
   },
   {
     id: "assistente-pedagogico",
