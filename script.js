@@ -16,7 +16,6 @@ const projects = [
     about:
       "O Conecta Inclusão reúne informações e caminhos para fortalecer o atendimento de estudantes que precisam de apoio educacional especializado. A proposta é facilitar a consulta, a organização das demandas e a comunicação sobre ações inclusivas dentro da rotina escolar.",
     highlights: [
-      "Responsável: Aline",
       "Foco em inclusão, acompanhamento e apoio pedagógico.",
       "Acesso publicado em página do Canva.",
     ],
@@ -105,7 +104,6 @@ Uma plataforma profissional, moderna, acessível e completa para gestão de alun
     about:
       "A Gestão da Cantina Escolar concentra informações úteis para o acompanhamento da alimentação escolar. O sistema ajuda a visualizar necessidades, registrar dados da rotina e apoiar decisões rápidas sobre estoque, cardápio e organização da cozinha.",
     highlights: [
-      "Responsável: Núbia",
       "Foco em cardápio, estoque e consumo diário.",
       "Acesso publicado em página do Canva.",
     ],
@@ -156,7 +154,6 @@ Dentro de cada categoria, organize os itens em ordem crescente de data de valida
     about:
       "A Gestão do Almoxarifado foi pensada para facilitar o acompanhamento dos materiais disponíveis na escola. O sistema centraliza registros e torna mais simples identificar itens, controlar movimentações e planejar reposições.",
     highlights: [
-      "Responsável: Keliane",
       "Foco em materiais, movimentações e reposição.",
       "Acesso publicado em página do Canva.",
     ],
@@ -196,7 +193,6 @@ Regras importantes:
     about:
       "A Gestão da Biblioteca apoia a organização do acervo escolar e o acompanhamento dos atendimentos. O sistema pode servir como ponto de consulta para livros, empréstimos, devoluções e informações importantes para estudantes e equipe.",
     highlights: [
-      "Responsável: Regina",
       "Foco em acervo, empréstimos e consulta de livros.",
       "Acesso publicado em página do Canva.",
     ],
@@ -256,7 +252,6 @@ Dicas para melhorar o prompt no Canva IA:
     about:
       "A Gestão da Frota reúne informações para apoiar o controle de veículos e deslocamentos. O sistema ajuda a dar visibilidade a rotas, registros, manutenção e demandas operacionais ligadas ao transporte escolar.",
     highlights: [
-      "Responsável: Alessandra",
       "Foco em veículos, rotas e acompanhamento operacional.",
       "Acesso publicado em página do Canva.",
     ],
@@ -278,7 +273,6 @@ Dicas para melhorar o prompt no Canva IA:
     about:
       "O Assistente Pedagógico funciona como apoio para organizar orientações e recursos voltados à prática docente. A proposta é auxiliar professores e equipes escolares na construção de estratégias mais acessíveis, inclusivas e alinhadas às necessidades dos estudantes.",
     highlights: [
-      "Responsável: Jessyca",
       "Foco em apoio ao professor e inclusão educacional.",
       "Acesso publicado em página do Canva.",
     ],
@@ -338,7 +332,6 @@ Exemplo de comando:
     about:
       "O Painel de Monitoramento Escolar acompanha a frequência e o rendimento dos estudantes para identificar vulnerabilidades pedagógicas e direcionar intervenções práticas imediatas, como planos de recuperação continuada e o fortalecimento do vínculo com as famílias. O sistema ainda está em elaboração: a intenção é simplificá-lo até se tornar um sistema de gestão por evidências, apoiado em dados visuais — como gráficos de engajamento e tabelas de risco por disciplina — que sejam funcionais na rotina escolar.",
     highlights: [
-      "Responsável: Edinha",
       "Equipe: Alex, Edenildes e Edinha",
       "Foco em frequência, rendimento e identificação de vulnerabilidades pedagógicas.",
       "Intervenções práticas: planos de recuperação continuada e fortalecimento do vínculo com as famílias.",
@@ -424,7 +417,6 @@ Formato esperado: nome, turma, disciplina, frequencia, media.`,
     about:
       "O Cronômetro de estudos ajuda estudantes e professores a organizarem períodos de foco, revisão e pausa. A proposta é tornar a gestão do tempo mais simples e visível durante atividades individuais ou coletivas.",
     highlights: [
-      "Responsável: Monica",
       "Foco em tempo de estudo, foco e pausas.",
       "Acesso publicado em página do Canva.",
     ],
