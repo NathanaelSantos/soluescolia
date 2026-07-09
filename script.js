@@ -96,8 +96,7 @@ Uma plataforma profissional, moderna, acessível e completa para gestão de alun
     cover: "assets/cantina-escolar.png",
     images: [
       "assets/cantina-escolar.png",
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=900&q=80",
+      "assets/cantina-refeitorio.png",
     ],
     description:
       "Sistema para organizar rotinas da cantina, cardápios, controle de alimentos e demandas de reposição.",
@@ -146,8 +145,7 @@ Dentro de cada categoria, organize os itens em ordem crescente de data de valida
     cover: "assets/gestao-estoque.png",
     images: [
       "assets/gestao-estoque.png",
-      "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1605902711622-cfb43c4437d1?auto=format&fit=crop&w=900&q=80",
+      "assets/almoxarifado-sala.png",
     ],
     description:
       "Ferramenta para controle de materiais, entradas, saídas e organização de itens do almoxarifado.",
@@ -185,8 +183,7 @@ Regras importantes:
     cover: "assets/gestao-biblioteca.png",
     images: [
       "assets/gestao-biblioteca.png",
-      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=900&q=80",
+      "assets/biblioteca-sala.png",
     ],
     description:
       "Sistema para organizar acervo, empréstimos, consulta de livros e rotina de atendimento da biblioteca.",
