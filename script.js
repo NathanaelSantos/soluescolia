@@ -241,8 +241,7 @@ Dicas para melhorar o prompt no Canva IA:
     cover: "assets/gestao-frota.png",
     images: [
       "assets/gestao-frota.png",
-      "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=900&q=80",
-      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=900&q=80",
+      "assets/frota-despacho.png",
     ],
     description:
       "Sistema para acompanhar veículos, rotas, registros e necessidades relacionadas à frota escolar.",
